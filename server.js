@@ -45,7 +45,7 @@ app.get('/api/services', (req, res) => {
 app.get('/api/status', (req, res) => {
     res.json({
         status: 'Operational',
-        developer: 'Sri Varshini R K',
+        developer: 'Sri Varshini R',
         environment: 'Cloud PaaS'
     });
 });
